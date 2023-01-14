@@ -1,0 +1,140 @@
+.videos-info{
+    position: absolute;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    width:20rem;
+    bottom:40px;
+}
+ 
+
+.post-container{
+    height:100%;
+    width: 20rem;
+    margin-bottom: 1rem;
+    
+}
+
+ 
+.avatar-container{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     width:70%;
+     margin-top: 3.5rem;
+     margin-left: 0.2rems;
+}
+
+.avatar-container>p{
+      margin-left:0.6rem;
+      
+}
+
+.post-like{
+     display: flex;
+     justify-content: space-between;
+     width:20%;   
+     flex-direction: column;
+     height:2rem;
+}
+ 
+.feed-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.nav-icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icons{
+    color: black;
+    margin: 0.5rem;
+}
+
+.upload-btn{
+    margin-top :1rem;
+}
+
+.videos-container{
+height: 70vh;
+overflow-y: scroll;
+
+}
+
+.videos-container::-webkit-scrollbar{
+    display: none;
+}
+
+.post-container{
+    height: 100%;
+    width:20rem;
+    /* border: 1px solid black; */
+    margin-bottom: 1rem;
+    position: relative;
+    margin-top: 1rem;
+
+
+}
+
+.post-container>video{
+    height: 100%;
+    width:20rem;
+    background-color: black;
+    border-radius: 20px;
+    object-fit: contain;
+}
+ 
+.post-like{
+     margin-left: 6rem;
+     margin-bottom:2rem;
+}
+
+/* @media screen and (max-width:500px){
+    .nav-icons{
+        display: none;
+    }
+} */
+
+.modal-container{
+     display: flex;
+     height:100%;
+     width:100%;
+}
+
+
+.video-modal{
+    display: flex;
+    width: 40%;
+    height: 90vh;
+  }
+  
+.video-modal > video {
+    height: 100%;
+    width: 100%;
+  }
+
+.comments-modal{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .card-1{
+    height: 80%;
+  }
+  
+  .card-2{
+    height: 20%;
+  }
